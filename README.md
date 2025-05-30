@@ -1,8 +1,10 @@
 # 🐱 Sleeping Cat for Windows
 
-A peaceful desktop companion for Windows. The cat sleeps on your screen with a gently swaying tail.
+A peaceful desktop companion that sleeps on your screen. Watch as the cat's tail gently sways while it dreams.
 
-macOS版は[こちら](https://github.com/daiokawa/SleepingCat)
+https://github.com/user-attachments/assets/c2ed51d1-18f2-42eb-8258-3207bf892022
+
+You can place your cat anywhere on your screen like this.
 
 ![Sleeping Cat Icon](icon_original.png)
 
@@ -10,52 +12,44 @@ macOS版は[こちら](https://github.com/daiokawa/SleepingCat)
 
 - 🌙 Adorable sleeping cat animation
 - 🪶 Transparent window that floats on your desktop
-- 🎯 Drag to move anywhere on screen
-- 💤 Realistic tail movement animation
-- 🖱️ Right-click to quit
+- 🎯 Stays on top of other windows
+- 🎨 Hand-drawn artwork
+- 💤 Realistic tail movement (hybrid static/animated approach)
 
-## 📥 Download
+## 📦 Installation
 
-最新版のインストーラーを[Releases](https://github.com/daiokawa/SleepingCat-Windows/releases)からダウンロードしてください。
+### Easy Install
+1. Download the latest installer from [Releases](https://github.com/daiokawa/SleepingCat-Windows/releases)
+2. Run "Sleeping Cat Setup X.X.X.exe"
+3. Follow the installation wizard
+4. Launch from Start Menu or Desktop shortcut
 
-## 🎮 Usage
-
-1. インストーラーを実行してインストール
-2. スタートメニューまたはデスクトップショートカットから起動
-3. ドラッグで好きな位置に移動
-4. 右クリックで終了
-
-## 🛠 開発者向け
-
-### 必要なもの
-- Node.js 16以上
-- Windows 10/11
-
-### セットアップ
+### Manual Build
 ```bash
-# リポジトリをクローン
 git clone https://github.com/daiokawa/SleepingCat-Windows.git
 cd SleepingCat-Windows
-
-# 依存関係のインストール
 npm install
-
-# 開発モードで起動
-npm start
-```
-
-### ビルド
-```bash
-# Windows用インストーラーの作成
 npm run build-win
 ```
 
-`dist`フォルダに`.exe`インストーラーが作成されます。
+## 🎮 Usage
+
+- **Launch**: Start Menu → Sleeping Cat (or Desktop shortcut)
+- **Move**: Click and drag the cat to reposition
+- **Quit**: Right-click on the cat and select "Quit"
 
 ## 🖥 System Requirements
 
 - Windows 10/11 (64-bit)
-- 100MB以上の空き容量
+- 100MB of free space
+
+## 🛠 Technical Details
+
+- Built with Electron
+- WebM video format with VP9 codec for transparency
+- Transparent frameless window
+- Always-on-top behavior
+- Hybrid static/animated video approach for optimal performance
 
 ## 📝 License
 
@@ -63,9 +57,25 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 ## 🙏 Acknowledgments
 
-- Original concept from [SleepingCat for macOS](https://github.com/daiokawa/SleepingCat)
-- Built with Electron
-- Hand-drawn artwork
+- Original cat video and artwork created with love
+- macOS version: [SleepingCat](https://github.com/daiokawa/SleepingCat)
+- Built with [Electron](https://www.electronjs.org/)
+
+## 🐛 Troubleshooting
+
+**Cat not appearing?**
+- Check your system tray - the app might be minimized
+- Make sure no other windows are in full-screen mode
+- Try relaunching the app
+
+**Performance issues?**
+- Close other transparent window applications
+- Update your graphics drivers
+- Try restarting Windows Explorer
+
+**Can't move the cat?**
+- Make sure you're clicking directly on the cat
+- The window might be behind other always-on-top windows
 
 ---
 
