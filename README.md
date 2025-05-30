@@ -2,6 +2,8 @@
 
 A peaceful desktop companion that sleeps on your screen. Watch as the cat's tail gently sways while it dreams.
 
+🍎 **Looking for macOS version?** → [SleepingCat for macOS](https://github.com/daiokawa/SleepingCat)
+
 https://github.com/user-attachments/assets/c2ed51d1-18f2-42eb-8258-3207bf892022
 
 You can place your cat anywhere on your screen like this.
